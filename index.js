@@ -12,5 +12,4 @@ client.on('message', message => {
     message.reply('pong');
   }
 });
-
-client.login('process.env.DISCORD_TOKEN');
+client.login(process.env.DISCORD_TOKEN);
