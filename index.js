@@ -9,7 +9,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
   if (message.content === '..readme') {
-    message.reply('```\ntest```');
+    message.channel.send('```\ntest\n```');
   }
 });
 client.login(process.env.DISCORD_TOKEN);
