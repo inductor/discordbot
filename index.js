@@ -8,8 +8,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-  if (message.content === 'ping') {
-    message.reply('pong');
+  if (message.content === '..readme') {
+    message.reply('```\ntest```');
   }
 });
 client.login(process.env.DISCORD_TOKEN);
