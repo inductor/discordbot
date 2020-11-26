@@ -9,7 +9,7 @@
   "author": "inducto <kela@inductor.mer",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.3.0",
+    "discord.js": "^12.5.1",
     "dotenv": "^8.2.0"
   }
 }
